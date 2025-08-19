@@ -1,7 +1,7 @@
 // network-node.ts - P2P Network Node
 import { EventEmitter } from 'events';
-import { Blockchain } from './blockchain';
-import { Transaction } from './transaction';
+import { Blockchain } from './core/blockchain';
+import { Transaction } from './core/transaction';
 
 interface IPeerMessage {
   type: 'blockchain_request' | 'blockchain_response' | 'new_transaction' | 'new_block' | 'peer_discovery';

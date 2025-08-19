@@ -1,6 +1,6 @@
-import { Blockchain } from './blockchain';
-import { Transaction } from './transaction';
-import { Block } from './block';
+import { Blockchain } from './core/blockchain';
+import { Transaction } from './core/transaction';
+import { Block } from './core/block';
 
 function main() {
   console.log('🚀 Creating NoobCoin Blockchain...\n');
