@@ -62,7 +62,7 @@ temp/
 target/
 
 # Compiled output (if you compile TypeScript)
-*.js
+# *.js
 !jest.config.js
 !webpack.config.js
 
